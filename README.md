@@ -18,3 +18,20 @@ int main()
 
 }
   
+
+	
+//Temperature F To C
+#include <iostream>
+using namespace std;
+int main()
+{
+	double f;
+	double c;
+	cout << "enter the temperature in farenhite :" << endl;
+	cin >> f;
+	c = (f - 32) * 0.556;
+	cout << "the temperature in Celsius is :" << c << endl;
+	return 0;
+
+
+}
