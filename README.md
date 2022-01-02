@@ -72,3 +72,26 @@ int main()
 	cout << "The circumference of the circle is:" << c << endl;
 	return 0;
 }
+
+	
+	
+	//Rectangle Triangle Square
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	double length, width, rect, tri, sq;
+	cout << "\n Calculating the area of Rectangle, Triangle and Square shapes\n";
+	cout << "Enter the length:\n";
+	cin >> length;
+	cout << "\nEnter the width : \n";
+	cin >> width;
+	rect = length * width;
+	tri = (length * width) * 0.5;
+	sq = length * length;
+	cout << "\nThe area of rectangle : \n" << rect << endl;
+	cout << "\nThe area of triangle: \n" << tri << endl;
+	cout << "\nThe area of square: \n" << sq << endl;
+	return 0;
+}
