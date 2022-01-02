@@ -54,3 +54,21 @@ int main()
 
 
 }
+
+	
+	
+	//circle
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	double r, a, c;
+	cout << "Enter the radius to calculate the area and circumference of the circle \n";
+	cin >> r;
+	a = 3.14 * r * r;
+	c = 2 * 3.14 * r;
+	cout << "The area of the circle is: " << a << endl;
+	cout << "The circumference of the circle is:" << c << endl;
+	return 0;
+}
